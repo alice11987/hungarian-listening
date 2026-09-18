@@ -21,10 +21,31 @@
       },
       {
         "id": "news_001_s3",
+        "hu": "Az emberek a parkban sétálnak.",
+        "en": "People are walking in the park.",
+        "zh": "人们在公园里散步。",
+        "audio": "/audio/news_001_s3.mp3"
+      },
+      {
+        "id": "news_001_s4",
+        "hu": "A gyerekek fagylaltot esznek.",
+        "en": "The children are eating ice cream.",
+        "zh": "孩子们在吃冰淇淋。",
+        "audio": "/audio/news_001_s4.mp3"
+      },
+      {
+        "id": "news_001_s5",
         "hu": "Holnap esőre számíthatunk.",
         "en": "Tomorrow we can expect rain.",
         "zh": "明天预计有雨。",
-        "audio": "/audio/news_001_s3.mp3"
+        "audio": "/audio/news_001_s5.mp3"
+      },
+      {
+        "id": "news_001_s6",
+        "hu": "Érdemes esernyőt vinni magunkkal.",
+        "en": "It is worth taking an umbrella with us.",
+        "zh": "值得带把雨伞出门。",
+        "audio": "/audio/news_001_s6.mp3"
       }
     ],
     "choices": ["Weather forecast", "Sports news", "Traffic report", "Cultural event"]
@@ -51,10 +72,38 @@
       },
       {
         "id": "news_002_s3",
+        "hu": "A metró négy vonalon közlekedik.",
+        "en": "The metro runs on four lines.",
+        "zh": "地铁共有四条线路。",
+        "audio": "/audio/news_002_s3.mp3"
+      },
+      {
+        "id": "news_002_s4",
         "hu": "A bérlet olcsóbb, mint az egyes jegy.",
         "en": "The monthly pass is cheaper than a single ticket.",
         "zh": "月票比单程票更便宜。",
-        "audio": "/audio/news_002_s3.mp3"
+        "audio": "/audio/news_002_s4.mp3"
+      },
+      {
+        "id": "news_002_s5",
+        "hu": "A Duna felett több híd is van.",
+        "en": "There are several bridges over the Danube.",
+        "zh": "多瑙河上有好几座桥。",
+        "audio": "/audio/news_002_s5.mp3"
+      },
+      {
+        "id": "news_002_s6",
+        "hu": "A Lánchíd az egyik legismertebb híd.",
+        "en": "The Chain Bridge is one of the most well-known bridges.",
+        "zh": "链桥是最著名的桥之一。",
+        "audio": "/audio/news_002_s6.mp3"
+      },
+      {
+        "id": "news_002_s7",
+        "hu": "Sokan kerékpárral is közlekednek a városban.",
+        "en": "Many people also travel by bicycle in the city.",
+        "zh": "很多人也在城里骑自行车出行。",
+        "audio": "/audio/news_002_s7.mp3"
       }
     ],
     "choices": ["Public transport", "Road construction", "Airport news", "Cycling paths"]
@@ -74,17 +123,45 @@
       },
       {
         "id": "news_003_s2",
-        "hu": "Sok paprikát használnak a főzéshez.",
-        "en": "They use a lot of paprika for cooking.",
-        "zh": "他们在烹饪中使用大量辣椒粉。",
+        "hu": "Ez egy marhahúsból készült leves.",
+        "en": "It is a soup made from beef.",
+        "zh": "这是一种用牛肉做的汤。",
         "audio": "/audio/news_003_s2.mp3"
       },
       {
         "id": "news_003_s3",
-        "hu": "A lángos is nagyon népszerű.",
-        "en": "Lángos is also very popular.",
-        "zh": "炸面包也非常受欢迎。",
+        "hu": "Sok paprikát használnak a főzéshez.",
+        "en": "They use a lot of paprika for cooking.",
+        "zh": "他们在烹饪中使用大量辣椒粉。",
         "audio": "/audio/news_003_s3.mp3"
+      },
+      {
+        "id": "news_003_s4",
+        "hu": "A paprika Magyarország jelképe is.",
+        "en": "Paprika is also a symbol of Hungary.",
+        "zh": "辣椒粉也是匈牙利的象征。",
+        "audio": "/audio/news_003_s4.mp3"
+      },
+      {
+        "id": "news_003_s5",
+        "hu": "A lángos egy sült tésztaféle.",
+        "en": "Lángos is a kind of fried dough.",
+        "zh": "炸面包是一种炸面团食品。",
+        "audio": "/audio/news_003_s5.mp3"
+      },
+      {
+        "id": "news_003_s6",
+        "hu": "Általában tejföllel és sajttal eszik.",
+        "en": "It is usually eaten with sour cream and cheese.",
+        "zh": "通常搭配酸奶油和奶酪食用。",
+        "audio": "/audio/news_003_s6.mp3"
+      },
+      {
+        "id": "news_003_s7",
+        "hu": "A magyar sütemények is nagyon finomak.",
+        "en": "Hungarian pastries are also very delicious.",
+        "zh": "匈牙利糕点也非常美味。",
+        "audio": "/audio/news_003_s7.mp3"
       }
     ],
     "choices": ["Hungarian cuisine", "French cooking", "Italian food", "Asian restaurants"]
@@ -104,19 +181,105 @@
       },
       {
         "id": "news_004_s2",
-        "hu": "Az emberek az utcán ünnepelnek.",
-        "en": "People celebrate in the streets.",
-        "zh": "人们在街上庆祝。",
+        "hu": "Ez a nap az 1848-as forradalom emléknapja.",
+        "en": "This day commemorates the revolution of 1848.",
+        "zh": "这一天是纪念1848年革命的纪念日。",
         "audio": "/audio/news_004_s2.mp3"
       },
       {
         "id": "news_004_s3",
+        "hu": "Az emberek az utcán ünnepelnek.",
+        "en": "People celebrate in the streets.",
+        "zh": "人们在街上庆祝。",
+        "audio": "/audio/news_004_s3.mp3"
+      },
+      {
+        "id": "news_004_s4",
         "hu": "Nemzeti lobogókat viselnek.",
         "en": "They wear national flags.",
         "zh": "他们佩戴国旗。",
-        "audio": "/audio/news_004_s3.mp3"
+        "audio": "/audio/news_004_s4.mp3"
+      },
+      {
+        "id": "news_004_s5",
+        "hu": "Koncerteket és előadásokat tartanak.",
+        "en": "Concerts and performances are held.",
+        "zh": "举办音乐会和演出活动。",
+        "audio": "/audio/news_004_s5.mp3"
+      },
+      {
+        "id": "news_004_s6",
+        "hu": "August huszadika Szent István napja.",
+        "en": "August twentieth is Saint Stephen's Day.",
+        "zh": "八月二十日是圣斯蒂芬节。",
+        "audio": "/audio/news_004_s6.mp3"
+      },
+      {
+        "id": "news_004_s7",
+        "hu": "Ilyenkor tűzijátékot is rendeznek a Duna felett.",
+        "en": "Fireworks are also set off over the Danube on this occasion.",
+        "zh": "届时还会在多瑙河上燃放烟花。",
+        "audio": "/audio/news_004_s7.mp3"
       }
     ],
     "choices": ["Hungarian holidays", "Christmas traditions", "Sports events", "Music festivals"]
+  },
+  {
+    "id": "news_005",
+    "category": "news",
+    "title": "Budapesti látnivalók",
+    "title_zh": "布达佩斯景点",
+    "sentences": [
+      {
+        "id": "news_005_s1",
+        "hu": "Budapest nagyon szép város.",
+        "en": "Budapest is a very beautiful city.",
+        "zh": "布达佩斯是一座非常美丽的城市。",
+        "audio": "/audio/news_005_s1.mp3"
+      },
+      {
+        "id": "news_005_s2",
+        "hu": "A Duna két részre osztja a várost.",
+        "en": "The Danube divides the city into two parts.",
+        "zh": "多瑙河将城市分为两部分。",
+        "audio": "/audio/news_005_s2.mp3"
+      },
+      {
+        "id": "news_005_s3",
+        "hu": "Buda a nyugati, Pest a keleti oldalon van.",
+        "en": "Buda is on the western side and Pest is on the eastern side.",
+        "zh": "布达在西边，佩斯在东边。",
+        "audio": "/audio/news_005_s3.mp3"
+      },
+      {
+        "id": "news_005_s4",
+        "hu": "A Parlament épülete nagyon impozáns.",
+        "en": "The Parliament building is very impressive.",
+        "zh": "国会大厦非常壮观。",
+        "audio": "/audio/news_005_s4.mp3"
+      },
+      {
+        "id": "news_005_s5",
+        "hu": "A Budai Vár is népszerű turistalátványosság.",
+        "en": "Buda Castle is also a popular tourist attraction.",
+        "zh": "布达城堡也是热门旅游景点。",
+        "audio": "/audio/news_005_s5.mp3"
+      },
+      {
+        "id": "news_005_s6",
+        "hu": "A termálfürdők különlegességei a városnak.",
+        "en": "The thermal baths are a specialty of the city.",
+        "zh": "温泉浴场是这座城市的特色。",
+        "audio": "/audio/news_005_s6.mp3"
+      },
+      {
+        "id": "news_005_s7",
+        "hu": "Évente több millió turista látogat Budapestre.",
+        "en": "Several million tourists visit Budapest every year.",
+        "zh": "每年有数百万游客来到布达佩斯。",
+        "audio": "/audio/news_005_s7.mp3"
+      }
+    ],
+    "choices": ["Tourist attractions", "Shopping malls", "Business districts", "University campuses"]
   }
 ]
