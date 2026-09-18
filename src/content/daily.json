@@ -1,0 +1,137 @@
+[
+  {
+    "id": "daily_001",
+    "category": "daily",
+    "hu": "Jó reggelt kívánok!",
+    "en": "Good morning!",
+    "zh": "早上好！",
+    "audio": "/audio/daily_001.mp3",
+    "choices": ["Good morning!", "Good evening!", "Good night!", "Good afternoon!"]
+  },
+  {
+    "id": "daily_002",
+    "category": "daily",
+    "hu": "Hogy van?",
+    "en": "How are you?",
+    "zh": "你好吗？",
+    "audio": "/audio/daily_002.mp3",
+    "choices": ["How are you?", "What is your name?", "Where are you from?", "How old are you?"]
+  },
+  {
+    "id": "daily_003",
+    "category": "daily",
+    "hu": "Köszönöm, jól vagyok.",
+    "en": "Thank you, I am fine.",
+    "zh": "谢谢，我很好。",
+    "audio": "/audio/daily_003.mp3",
+    "choices": ["Thank you, I am fine.", "I am tired.", "I am hungry.", "I don't know."]
+  },
+  {
+    "id": "daily_004",
+    "category": "daily",
+    "hu": "Mi a neve?",
+    "en": "What is your name?",
+    "zh": "你叫什么名字？",
+    "audio": "/audio/daily_004.mp3",
+    "choices": ["What is your name?", "Where do you live?", "How old are you?", "What do you do?"]
+  },
+  {
+    "id": "daily_005",
+    "category": "daily",
+    "hu": "Hol lakik?",
+    "en": "Where do you live?",
+    "zh": "你住在哪里？",
+    "audio": "/audio/daily_005.mp3",
+    "choices": ["Where do you live?", "Where are you going?", "Where were you born?", "Where do you work?"]
+  },
+  {
+    "id": "daily_006",
+    "category": "daily",
+    "hu": "Kérek egy kávét.",
+    "en": "I would like a coffee.",
+    "zh": "我想要一杯咖啡。",
+    "audio": "/audio/daily_006.mp3",
+    "choices": ["I would like a coffee.", "I would like water.", "I would like tea.", "I would like juice."]
+  },
+  {
+    "id": "daily_007",
+    "category": "daily",
+    "hu": "Mennyibe kerül?",
+    "en": "How much does it cost?",
+    "zh": "多少钱？",
+    "audio": "/audio/daily_007.mp3",
+    "choices": ["How much does it cost?", "What time is it?", "Where is the toilet?", "Can I help you?"]
+  },
+  {
+    "id": "daily_008",
+    "category": "daily",
+    "hu": "Nem értem.",
+    "en": "I don't understand.",
+    "zh": "我不明白。",
+    "audio": "/audio/daily_008.mp3",
+    "choices": ["I don't understand.", "I don't speak Hungarian.", "Please repeat.", "Speak slowly please."]
+  },
+  {
+    "id": "daily_009",
+    "category": "daily",
+    "hu": "Kérem, lassan beszéljen.",
+    "en": "Please speak slowly.",
+    "zh": "请说慢一点。",
+    "audio": "/audio/daily_009.mp3",
+    "choices": ["Please speak slowly.", "Please be quiet.", "Please come here.", "Please wait."]
+  },
+  {
+    "id": "daily_010",
+    "category": "daily",
+    "hu": "Hol van a mosdó?",
+    "en": "Where is the bathroom?",
+    "zh": "洗手间在哪里？",
+    "audio": "/audio/daily_010.mp3",
+    "choices": ["Where is the bathroom?", "Where is the exit?", "Where is the hotel?", "Where is the station?"]
+  },
+  {
+    "id": "daily_011",
+    "category": "daily",
+    "hu": "Segíthet nekem?",
+    "en": "Can you help me?",
+    "zh": "你能帮我吗？",
+    "audio": "/audio/daily_011.mp3",
+    "choices": ["Can you help me?", "Can you see me?", "Can you hear me?", "Can you call me?"]
+  },
+  {
+    "id": "daily_012",
+    "category": "daily",
+    "hu": "Viszontlátásra!",
+    "en": "Goodbye!",
+    "zh": "再见！",
+    "audio": "/audio/daily_012.mp3",
+    "choices": ["Goodbye!", "Hello!", "Good morning!", "Good luck!"]
+  },
+  {
+    "id": "daily_013",
+    "category": "daily",
+    "hu": "Elnézést kérek.",
+    "en": "Excuse me.",
+    "zh": "打扰一下。",
+    "audio": "/audio/daily_013.mp3",
+    "choices": ["Excuse me.", "Thank you.", "Sorry.", "No problem."]
+  },
+  {
+    "id": "daily_014",
+    "category": "daily",
+    "hu": "Szeretnék egy szobát foglalni.",
+    "en": "I would like to book a room.",
+    "zh": "我想预订一个房间。",
+    "audio": "/audio/daily_014.mp3",
+    "choices": ["I would like to book a room.", "I would like to check out.", "I would like to pay.", "I would like a table."]
+  },
+  {
+    "id": "daily_015",
+    "category": "daily",
+    "hu": "Mikor indul a vonat?",
+    "en": "When does the train leave?",
+    "zh": "火车什么时候出发？",
+    "audio": "/audio/daily_015.mp3",
+    "choices": ["When does the train leave?", "When does the bus arrive?", "When does the shop open?", "When does the film start?"]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "news_001",
+    "category": "news",
+    "title": "Az időjárás",
+    "title_zh": "天气预报",
+    "sentences": [
+      {
+        "id": "news_001_s1",
+        "hu": "Ma szép, napos idő van.",
+        "en": "Today the weather is nice and sunny.",
+        "zh": "今天天气晴朗。",
+        "audio": "/audio/news_001_s1.mp3"
+      },
+      {
+        "id": "news_001_s2",
+        "hu": "A hőmérséklet huszonöt fok.",
+        "en": "The temperature is twenty-five degrees.",
+        "zh": "气温是二十五度。",
+        "audio": "/audio/news_001_s2.mp3"
+      },
+      {
+        "id": "news_001_s3",
+        "hu": "Holnap esőre számíthatunk.",
+        "en": "Tomorrow we can expect rain.",
+        "zh": "明天预计有雨。",
+        "audio": "/audio/news_001_s3.mp3"
+      }
+    ],
+    "choices": ["Weather forecast", "Sports news", "Traffic report", "Cultural event"]
+  },
+  {
+    "id": "news_002",
+    "category": "news",
+    "title": "Budapest közlekedése",
+    "title_zh": "布达佩斯交通",
+    "sentences": [
+      {
+        "id": "news_002_s1",
+        "hu": "Budapest tömegközlekedése nagyon fejlett.",
+        "en": "Budapest's public transport is very advanced.",
+        "zh": "布达佩斯的公共交通非常发达。",
+        "audio": "/audio/news_002_s1.mp3"
+      },
+      {
+        "id": "news_002_s2",
+        "hu": "Van metró, villamos és busz is.",
+        "en": "There is metro, tram and bus too.",
+        "zh": "有地铁、有轨电车和公共汽车。",
+        "audio": "/audio/news_002_s2.mp3"
+      },
+      {
+        "id": "news_002_s3",
+        "hu": "A bérlet olcsóbb, mint az egyes jegy.",
+        "en": "The monthly pass is cheaper than a single ticket.",
+        "zh": "月票比单程票更便宜。",
+        "audio": "/audio/news_002_s3.mp3"
+      }
+    ],
+    "choices": ["Public transport", "Road construction", "Airport news", "Cycling paths"]
+  },
+  {
+    "id": "news_003",
+    "category": "news",
+    "title": "Magyar konyha",
+    "title_zh": "匈牙利美食",
+    "sentences": [
+      {
+        "id": "news_003_s1",
+        "hu": "A gulyás a leghíresebb magyar étel.",
+        "en": "Goulash is the most famous Hungarian dish.",
+        "zh": "古拉什是最著名的匈牙利菜肴。",
+        "audio": "/audio/news_003_s1.mp3"
+      },
+      {
+        "id": "news_003_s2",
+        "hu": "Sok paprikát használnak a főzéshez.",
+        "en": "They use a lot of paprika for cooking.",
+        "zh": "他们在烹饪中使用大量辣椒粉。",
+        "audio": "/audio/news_003_s2.mp3"
+      },
+      {
+        "id": "news_003_s3",
+        "hu": "A lángos is nagyon népszerű.",
+        "en": "Lángos is also very popular.",
+        "zh": "炸面包也非常受欢迎。",
+        "audio": "/audio/news_003_s3.mp3"
+      }
+    ],
+    "choices": ["Hungarian cuisine", "French cooking", "Italian food", "Asian restaurants"]
+  },
+  {
+    "id": "news_004",
+    "category": "news",
+    "title": "Magyar ünnepek",
+    "title_zh": "匈牙利节日",
+    "sentences": [
+      {
+        "id": "news_004_s1",
+        "hu": "Március tizenötödike nemzeti ünnep Magyarországon.",
+        "en": "March fifteenth is a national holiday in Hungary.",
+        "zh": "三月十五日是匈牙利的国庆节。",
+        "audio": "/audio/news_004_s1.mp3"
+      },
+      {
+        "id": "news_004_s2",
+        "hu": "Az emberek az utcán ünnepelnek.",
+        "en": "People celebrate in the streets.",
+        "zh": "人们在街上庆祝。",
+        "audio": "/audio/news_004_s2.mp3"
+      },
+      {
+        "id": "news_004_s3",
+        "hu": "Nemzeti lobogókat viselnek.",
+        "en": "They wear national flags.",
+        "zh": "他们佩戴国旗。",
+        "audio": "/audio/news_004_s3.mp3"
+      }
+    ],
+    "choices": ["Hungarian holidays", "Christmas traditions", "Sports events", "Music festivals"]
+  }
+]
