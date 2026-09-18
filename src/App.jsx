@@ -15,6 +15,35 @@ const CONTENT = {
   news: newsData,
 }
 
+function getItems(category, mode) {
+  const raw = CONTENT[category]
+
+  if (mode === 'free') {
+    if (category === 'news') return raw
+    // daily/vocab: wrap each item as a single-sentence passage
+    return raw.map(item => ({
+      id: item.id,
+      title: item.hu,
+      title_zh: item.zh,
+      sentences: [{ id: item.id, hu: item.hu, en: item.en, zh: item.zh, audio: item.audio }],
+    }))
+  }
+
+  if (mode === 'shadowing') {
+    // news: flatten sentences from all passages
+    if (category === 'news') return raw.flatMap(p => p.sentences)
+    return raw
+  }
+
+  // dictation / choice
+  if (category === 'news') {
+    return raw.flatMap(p =>
+      p.sentences.map(s => ({ ...s, choices: p.choices || [] }))
+    )
+  }
+  return raw
+}
+
 export default function App() {
   const [screen, setScreen] = useState({ page: 'home' })
 
@@ -31,7 +60,7 @@ export default function App() {
   }
 
   const { category, mode } = screen
-  const items = CONTENT[category]
+  const items = getItems(category, mode)
 
   if (mode === 'dictation') return <Dictation items={items} onBack={goHome} />
   if (mode === 'choice') return <MultipleChoice items={items} onBack={goHome} />

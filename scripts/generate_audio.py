@@ -1,66 +1,68 @@
 #!/usr/bin/env python3
 """
-Generate Hungarian audio files using gTTS.
+Generate Hungarian audio using Microsoft edge-tts (neural, natural quality).
 Run: python scripts/generate_audio.py
-Requires: pip install gtts
+Requires: pip install edge-tts
+Voice: hu-HU-NoemiNeural (female, natural)
 """
 
+import asyncio
 import json
-import os
 from pathlib import Path
 
 try:
-    from gtts import gTTS
+    import edge_tts
 except ImportError:
-    print("Please install gTTS: pip install gtts")
+    print("Please install edge-tts: pip install edge-tts")
     exit(1)
 
 OUTPUT_DIR = Path(__file__).parent.parent / "public" / "audio"
 CONTENT_DIR = Path(__file__).parent.parent / "src" / "content"
+VOICE = "hu-HU-NoemiNeural"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def generate(text, filename):
+async def generate(text, filename):
     path = OUTPUT_DIR / filename
     if path.exists():
         print(f"  skip (exists): {filename}")
         return
-    tts = gTTS(text=text, lang="hu", slow=False)
-    tts.save(str(path))
+    communicate = edge_tts.Communicate(text, VOICE)
+    await communicate.save(str(path))
     print(f"  generated: {filename}")
 
 
-def process_daily():
+async def process_daily():
     with open(CONTENT_DIR / "daily.json") as f:
         items = json.load(f)
     for item in items:
-        fname = Path(item["audio"]).name
-        generate(item["hu"], fname)
+        await generate(item["hu"], Path(item["audio"]).name)
 
 
-def process_vocab():
+async def process_vocab():
     with open(CONTENT_DIR / "vocab.json") as f:
         items = json.load(f)
     for item in items:
-        fname = Path(item["audio"]).name
-        generate(item["hu"], fname)
+        await generate(item["hu"], Path(item["audio"]).name)
 
 
-def process_news():
+async def process_news():
     with open(CONTENT_DIR / "news.json") as f:
         passages = json.load(f)
     for passage in passages:
         for sentence in passage["sentences"]:
-            fname = Path(sentence["audio"]).name
-            generate(sentence["hu"], fname)
+            await generate(sentence["hu"], Path(sentence["audio"]).name)
 
 
-if __name__ == "__main__":
+async def main():
     print("Generating daily conversation audio...")
-    process_daily()
+    await process_daily()
     print("Generating vocabulary audio...")
-    process_vocab()
+    await process_vocab()
     print("Generating news audio...")
-    process_news()
+    await process_news()
     print("Done!")
+
+
+asyncio.run(main())
